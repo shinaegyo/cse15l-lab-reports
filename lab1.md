@@ -1,7 +1,6 @@
-Lab Report 1
-1) cd
-2) cd lecture1
-3) cd messages/ko.txt
+#Lab Report 1
 
-1) ls
-2) 
+## `cd` command
+
+1) `cd`
+![Image](imageName.png)
