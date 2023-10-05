@@ -1,6 +1,6 @@
 # Lab Report 1
 
-## `cd` command
+## `cd` 
 
 1) `cd`
 
@@ -17,7 +17,7 @@ The working directory was /lecture1/messages and I got this output because I cha
 ![Image](cd-file.jpg)
 The working directory is /home/lecture1/messages/ko.txt and I got no directory because I changed the directory into a file called ko.txt which is a file and not a a directory. There is an error because the file is not a directory.
 
-## `ls` command
+## `ls` 
 
 1) `ls`
 
@@ -34,7 +34,7 @@ The working directory is home because I did not change the directory rather just
 ![Image](ls-file.jpg)
 The working directory is home because I did not change the directory rather just asked the compiler to provide a list. There is no error.
 
-## `cat` command
+## `cat` 
 
 1) `cat`
 
