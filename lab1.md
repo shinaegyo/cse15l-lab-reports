@@ -7,7 +7,7 @@
 ![Image](cd-no-arg.jpg)
 The working directory was home and I got this output because there was no need to change the directory because I was already at home. There are no errors.
 
-2) `cd/lecture1` 
+2) `cd lecture1` 
 
 ![Image](cd-directory.jpg)
 The working directory was /lecture1/messages and I got this output because I changed the directory from home into lecture and into messages. There are no errors.
