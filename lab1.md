@@ -38,15 +38,15 @@ The working directory is home because I did not change the directory rather just
 
 ![Image](ls-file.jpg)
 
-The working directory is home because I did not change the directory rather just asked the compiler to provide a list. There is no error.
+The working directory is home because I did not change the directory rather just asked the terminal to provide a list. There is no error.
 
 ## `cat` 
 
 1) `cat`
    
-<img width="199" alt="cat-no-arg" src="https://github.com/shinaegyo/cse15l-lab-reports/assets/137027086/c30690f8-7039-4a16-a065-b968571e9250">
+![cat-no-arg](https://github.com/shinaegyo/cse15l-lab-reports/assets/137027086/7a9397a6-796e-48f1-ae5c-dadf9944bc89)
 
-The working directory is home because it does not change the directory and I got no output because there is nothing to be shown with just cat. Even though I inputted james shin, I can infinitely input anything and there will be no change in the directory or path. To get out of the loop, I did control D and I returned back to `/home` There is no error message. 
+The working directory is home because it does not change the directory and I got no output because there is nothing to be shown with just cat. Even though I inputted james shin, I can infinitely input anything and there will be no change in the directory or path. To get out of the loop, I did control C or I could have also used control D and I returned back to `/home` There is no error message. 
 
 2) `cat lecture1`
 
@@ -58,4 +58,4 @@ The working directory is home because it does not change the directory and I got
 
 ![Image](cat-file.jpg)
 
-The working directory is `/home` because it does not change the directory and I got the output because it shows that hello world in Korean is translated to the output I got as `cat` will print out the output of the general path. If I did `cat lecture1/messages/en-us.txt`, it will print out Hello World! because I `cat` into that path. There is no error message.  
+The working directory is `/home` because it does not change the directory and I got the output because it shows that hello world in Korean is translated to the output I got as `cat` will print out the output of the file. If I did `cat lecture1/messages/en-us.txt`, it will print out Hello World! because I `cat` into that path. There is no error message.  
