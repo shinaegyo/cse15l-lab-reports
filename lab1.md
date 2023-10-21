@@ -4,10 +4,7 @@
 
 1) `cd`
 
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ cd
-[user@sahara ~]$ pwd
-/home
+![cd-no-arg](https://github.com/shinaegyo/cse15l-lab-reports/assets/137027086/e9d686e6-8667-4d29-8e3b-e9f7615c634e)
 The working directory was `/home` and I got this output because whenever I cd with no arg, I return back to home.
 
 2) `cd lecture1` 
@@ -17,10 +14,7 @@ The working directory was `/lecture1/messages` and I got this output because I c
 
 3) `cd /home/lecture1/messages/ko.txt`
 
-[user@sahara ~]$ cd lecture1/messages/ko.txt
-bash: cd: lecture1/messages/ko.txt: Not a directory
-[user@sahara ~]$ pwd
-/home
+![cd-file](https://github.com/shinaegyo/cse15l-lab-reports/assets/137027086/e38a6fa5-250d-42a9-b495-a238237d10be)
 The working directory is /home and I got no directory because I changed the directory into a file called ko.txt which is a file and not a a directory. There is an error because the file is not a directory.
 
 ## `ls` 
@@ -43,11 +37,8 @@ The working directory is home because I did not change the directory rather just
 ## `cat` 
 
 1) `cat`
-
-[user@sahara ~]$ cat
-james shin
-james shin
-[user@sahara ~]$ 
+   
+<img width="199" alt="cat-no-arg" src="https://github.com/shinaegyo/cse15l-lab-reports/assets/137027086/c30690f8-7039-4a16-a065-b968571e9250">
 The working directory is home because it does not change the directory and I got no output because there is nothing to be shown with just cat. Even though I inputted james shin, I can infinitely input anything and there will be no change in the directory or path. To get out of the loop, I did control D and I returned back to `/home` There is no error message. 
 
 2) `cat lecture1`
